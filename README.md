@@ -157,7 +157,7 @@ This would be the scalable solution, desired in case this application got popula
   1. Go to app root working directory.
   2. Build docker image:
       ```bash
-      docker build -t cli_service .
+      docker build -t cli_service -f docker/executable/Dockerfile .
       ```  
   3. Run Service:
       ```bash
