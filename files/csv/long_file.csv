@@ -1,0 +1,5 @@
+1157689320,2864,10.105.21.199,TCP_MISS/200,10182,GET,http://www.goonernews.com/,badeyek DIRECT/207.58.145.61,text/html,
+1157689320,1357,10.105.21.199,TCP_REFRESH_HIT/304,214,GET,http://www.goonernews.com/styles.css,badeyek,DIRECT/207.58.145.61,-
+1157689321,1,10.105.21.199,TCP_HIT/200,1464,GET,http://www.goonernews.com/styles.css,badeyek,NONE/-,text/css
+1157689323,1464,10.105.21.199,TCP_HIT/200,5626,GET,http://www.google-analytics.com/urchin.js,badeyek,NONE/-,text/javascript
+1157689324,3856,10.105.21.199,TCP_MISS/200,30169,GET,http://www.goonernews.com/,badeyek,DIRECT/207.58.145.61,text/html

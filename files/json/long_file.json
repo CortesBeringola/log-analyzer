@@ -1,0 +1,51 @@
+{"1": {
+    "timestamp": "1157689312.049",
+    "header_size": "5006",
+    "client_ip": "10.105.21.199",
+    "response_code": "TCP_MISS/200",
+    "response_size": "19763",
+    "request_method": "CONNECT",
+    "url": "login.yahoo.com:443",
+    "username": "badeyek",
+    "destination_ip": "DIRECT/209.73.177.115",
+    "response_type": "-"
+},
+"2": {
+    "timestamp": "1157689320.327",
+    "header_size": "2864",
+    "client_ip": "10.105.21.199",
+    "response_code": "TCP_MISS/200",
+    "response_size": "10182",
+    "request_method": "GET",
+    "url": "http://www.goonernews.com/",
+    "username": "badeyek",
+    "destination_ip": "DIRECT/207.58.145.61",
+    "response_type": "text/html"
+},
+"3": {
+    "timestamp": "1157689358.486",
+    "header_size": "711",
+    "client_ip": "10.105.33.214",
+    "response_code": "TCP_REFRESH_HIT/304",
+    "response_size": "512",
+    "request_method": "GET",
+    "url": "http://radio.launch.yahoo.com/radio/clientdata/538/images/btn_stations.gif",
+    "username": "adeolaegbedokun",
+    "destination_ip": "DIRECT/68.142.219.132",
+    "response_type": "-"
+},
+"4": {
+    "timestamp": "1035368778.117",
+    "header_size": "317",
+    "client_ip": "210.8.79.228",
+    "response_code": "TCP_MISS/200",
+    "response_size": "1629",
+    "request_method": "GET",
+    "url": "http://www.fas.harvard.edu/~hpcws/nav/navbar_r4_c5_f2.jpg",
+    "username": "-",
+    "destination_ip": "FIRST_PARENT_MISS/proxy2.syd.connect.com.au",
+    "response_type": "image/jpeg"
+}
+}
+
+ 

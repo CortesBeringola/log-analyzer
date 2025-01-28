@@ -1,0 +1,12 @@
+{"1": {
+    "timestamp": "1157689312.049",
+    "header_size": "5006",
+    "client_ip": "10.105.21.199",
+    "response_code": "TCP_MISS/200",
+    "response_size": "19763",
+    "request_method": "CONNECT",
+    "url": "login.yahoo.com:443",
+    "username": "badeyek",
+    "destination_ip": "DIRECT/209.73.177.115",
+    "response_type": "-"}
+}
