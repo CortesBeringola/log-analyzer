@@ -2,6 +2,9 @@ version: '3.8'
 
 services:
   cli_service:
+    build:
+          context: .
+          dockerfile: ./docker/executable/Dockerfile
     image: cli:latest
     deploy:
       replicas: 2
