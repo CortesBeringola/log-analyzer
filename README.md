@@ -124,16 +124,34 @@ In order to run the tests from terminal make sure to be in the program working d
 See below steps on how to build and run a *Log Analyzer* Docker image as a docker container/service.
 
 - #### Docker Container
-This would be the simple solution with low scalability. To run the image container:
-  1. Go to app root working directory.
-  2. Build docker image:
-      ```bash
-      docker build -t cli .
-      ```  
-  3. Run container:
-      ```bash
-      docker run --name cli_container -t cli /files/csv/ results.csv 
-     ```
+This would be the simple solution with low scalability. There are two possible ways to run the image container:
+  - Run an executable container: More comfortable since it can be executed directly when running the container. 
+    1. Go to app root working directory.
+    2. Build docker image:
+       ```bash
+        docker build -f ./docker/executable/Dockerfile . -t cli_executable
+       ```
+    3. Run container:
+       ```bash
+        docker run --name cli_container -t cli_executable /files/csv/ results.csv 
+       ```
+  - Run container and access container terminal: Less comfortable for executing but better for accessing files. 
+    1. Go to app root working directory.
+    2. Build docker image:
+       ```bash
+        docker build -f ./docker/terminal/Dockerfile . -t cli_terminal
+       ```
+    3. Access container terminal:
+        ```bash
+        docker run -it cli_terminal  /bin/bash
+       ```
+    4. Run script
+       ```bash
+        python cli.py /files/csv/ result.csv 
+       ```
+    5. Check files by accessing proper directories
+    6. Exit terminal by typing `exit`  
+    
 - #### Docker Service
 This would be the scalable solution, desired in case this application got popular and started getting a lot of usage.
   1. Go to app root working directory.
